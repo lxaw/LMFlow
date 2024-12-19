@@ -10,7 +10,7 @@ from .hymba import HYMBA_TEMPLATE
 from .internlm import INTERNLM2_TEMPLATE
 from .llama import LLAMA2_TEMPLATE, LLAMA3_TEMPLATE, LLAMA3_TEMPLATE_FOR_TOOL
 from .phi import PHI3_TEMPLATE
-from .qwen import QWEN2_TEMPLATE, QWEN2_TEMPLATE_FOR_TOOL
+from .qwen import QWEN2_TEMPLATE, QWEN2_TEMPLATE_FOR_TOOL, QWEN2_5_TEMPLATE
 from .yi import YI1_5_TEMPLATE
 from .zephyr import ZEPHYR_TEMPLATE
 
@@ -31,6 +31,7 @@ PRESET_TEMPLATES = {
     'phi3': PHI3_TEMPLATE,
     'qwen2': QWEN2_TEMPLATE,
     'qwen2_for_tool': QWEN2_TEMPLATE_FOR_TOOL,
+    'qwen2_5': QWEN2_5_TEMPLATE,
     'yi': CHATML_TEMPLATE,
     'yi1_5': YI1_5_TEMPLATE,
     'zephyr': ZEPHYR_TEMPLATE
